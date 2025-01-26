@@ -619,7 +619,7 @@ namespace config {
       if (*skipper == ']') {
         --stack;
         if (stack == 0){
-          break;
+          break; 
         }
       }
 
